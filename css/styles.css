@@ -378,16 +378,12 @@ img {
     padding: 100px 0;
 }
 
-.footer-block a {
-    display: inline-block; 
-}
-
 .webspan-footer {
     color: #F4F4FD;
 }
 
 .logo-footer {
-    display: inline-block; 
+    display: block; 
     margin-bottom: 16px;
     font-family: "Raleway", sans-serif;
     color: #4d5ae5;
