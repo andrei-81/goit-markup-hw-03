@@ -8,23 +8,24 @@ img {
     display: block;
 }
 
-.container {
+.body-container {
     display: flex;
     flex-direction: column;
     /* width: 1440px; */
     flex-basis: 1158px;
 }
 
-.header-block {
+.container {
     display: flex;
-    flex-direction: row;
-    background-color: #FFFFFF;
-    color: #2E2F42;
-    justify-content: space-between;
-    border-bottom-width: 1px;
-    border-bottom-color: #E7E9FC;
-    border-bottom-style: solid;
+    flex-direction: column;
 }
+
+
+.header-container{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 
 .heder-nav .logo {
     align-self: center;
@@ -135,7 +136,7 @@ img {
 }
 
 
-.service-section {
+.service-section, .first-section-container {
     flex-direction: column;
     align-items: center;
     background-color: #2E2F42;
@@ -185,6 +186,7 @@ img {
     letter-spacing: 0.02em;
     color: #2E2F42;
     text-align: center;
+    visibility: hidden;
 }
 
 .about-us-list{
