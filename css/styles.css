@@ -18,12 +18,14 @@ img {
 .container {
     display: flex;
     flex-direction: column;
+    width: 1158px;
 }
 
 
 .header-container{
     flex-direction: row;
     justify-content: space-between;
+    padding: 0 15px;
 }
 
 
@@ -41,10 +43,15 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     flex-shrink: 0;
+    margin-right: 76px
 }
 
 .webspan {
     color: #2e2f42;
+}
+
+.header-block {
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .heder-nav {
@@ -52,6 +59,12 @@ img {
     font-size: 16px;
     font-weight: 700;
     margin-left: 156px;
+    align-items: center;
+}
+
+.header-nav-menu {
+    display: flex;
+    gap: 40px для
 }
 
 
@@ -60,6 +73,7 @@ img {
     list-style-type: none;
     margin-left: 24px;
     margin-right: 24px;
+    padding: 24px 0;
 }
 
 
@@ -94,7 +108,7 @@ img {
 
 .header-nav-addr{ 
     display: flex;  
-    gap: 24px; 
+    gap: 40px;
     font-size: 16px;
     font-weight: 400;
     list-style-type: none;
@@ -143,6 +157,10 @@ img {
     color: #FFFFFF;
 }
 
+.service-section {
+    padding: 188px 0;
+}
+
 
 .main-title {
     font-size: 56px;
@@ -163,6 +181,8 @@ img {
     cursor: pointer;
     padding: 14px 30px;
     border-radius: 4px;
+    min-width: 169px;
+    border: none;
 }
 
 .service-button:hover {
@@ -177,6 +197,7 @@ img {
 .about-us {
     flex-direction: column;
     align-items: center;
+    padding: 120px 0;
 }
 
 .about-us-title{
@@ -200,6 +221,7 @@ img {
 
 .about-us-li{
     text-align: left;
+    width: calc((100% - 72px) / 4);
 }
 
 .about-us-name{
@@ -208,6 +230,7 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px; 
 }
 
 .about-us-text{
@@ -223,6 +246,7 @@ img {
     flex-direction: column;
     align-items: center;
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .team-title {
@@ -233,12 +257,13 @@ img {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px; 
 }
 
 .team-list {
     display: flex;
     flex-direction: row;
-    gap: 12px;
+    gap: 24px;
     list-style-type: none;
     text-align: center;
 }
@@ -246,6 +271,12 @@ img {
 .team-card {
     background-color: #FFFFFF;
     text-align: center;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px; 
+}
+
+.empl-info {
+    padding: 32px 0;
 }
 
 .description-title {
@@ -254,6 +285,8 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    text-align: center; 
+    margin-bottom: 8px;
 }
 
 .description-text {
@@ -262,10 +295,12 @@ img {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .portfolio {
     flex-direction: column;
+    padding-top: 120px;
 }
 
 .portfolio-title {
@@ -276,6 +311,7 @@ img {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .portfolio-list {
@@ -283,7 +319,7 @@ img {
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 24px;
+    row-gap: 48px; 
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -292,7 +328,7 @@ img {
 .portfolio-card {
     display: flex;
     flex-direction: column;
-    flex-basis: 360;
+    width: calc((100% - 48px) / 3);
     text-align: left;
     text-indent: 3%;
 }
@@ -303,6 +339,7 @@ img {
     border-bottom-style: solid;
     border-color: #E7E9FC;
     border-width: 1px;
+    padding: 32px 16px;
 }
 
 .portfolio-name {
@@ -311,7 +348,7 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-
+    margin-bottom: 8px;
 
 }
 
@@ -329,6 +366,7 @@ img {
     padding-left: 156px;
     background-color: #2E2F42;
     align-content: center;
+    padding: 100px 0;
 }
 
 .footer-block {
@@ -341,6 +379,11 @@ img {
 
 .webspan-footer {
     color: #F4F4FD;
+}
+
+.footer-block .logo {
+    display: inline-block; 
+    margin-bottom: 16px;
 }
 
 .footer-text {
