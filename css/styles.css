@@ -11,7 +11,6 @@ img {
 .body-container {
     display: flex;
     flex-direction: column;
-    /* width: 1440px; */
     flex-basis: 1158px;
 }
 
@@ -19,6 +18,7 @@ img {
     display: flex;
     flex-direction: column;
     width: 1158px;
+    margin: 0 auto
 }
 
 
@@ -26,8 +26,6 @@ img {
     flex-direction: row;
     justify-content: space-between;
     padding: 0 15px;
-    margin-left: 156px;
-    margin-right: 156px;
 }
 
 
@@ -57,7 +55,6 @@ img {
     display: flex;
     font-size: 16px;
     font-weight: 700;
-    /* margin-left: 156px; */
     align-items: center;
 }
 
@@ -74,8 +71,6 @@ img {
     margin-left: 24px;
     margin-right: 24px;
 }
-
-
 
 .header-nav-link {
     font-size: 16px;
@@ -140,8 +135,6 @@ img {
 
 .section {
     display: flex; 
-    /* padding-left: 156px;
-    padding-right: 156px; */
 }
 
 
@@ -304,7 +297,6 @@ img {
 }
 
 .portfolio {
-    margin-left: 156px;
     padding-top: 120px; 
     padding-bottom: 120px;
 }
@@ -374,10 +366,6 @@ img {
 
 .webspan-footer {
     color: #F4F4FD;
-}
-
-.footer-block {
-    margin-left: 156px;
 }
 
 .logo-footer {
