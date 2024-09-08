@@ -378,7 +378,7 @@ img {
     padding: 100px 0;
 }
 
-.footer-block>a {
+.footer-block a {
     display: inline-block; 
 }
 
@@ -387,6 +387,7 @@ img {
 }
 
 .logo-footer {
+    display: inline-block; 
     margin-bottom: 16px;
     font-family: "Raleway", sans-serif;
     color: #4d5ae5;
