@@ -26,6 +26,7 @@ img {
     flex-direction: row;
     justify-content: space-between;
     padding: 0 15px;
+    margin: 0 auto;
 }
 
 
@@ -64,7 +65,7 @@ img {
 
 .header-nav-menu {
     display: flex;
-    gap: 40px для
+    gap: 40px;
 }
 
 
@@ -168,6 +169,7 @@ img {
     text-align: center;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    max-width: 496px;
 }
 
 .service-button {
@@ -183,6 +185,7 @@ img {
     border-radius: 4px;
     min-width: 169px;
     border: none;
+    height: 56px
 }
 
 .service-button:hover {
@@ -200,14 +203,10 @@ img {
     padding: 120px 0;
 }
 
-.about-us-title{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-    text-align: center;
+.visually-hidden {
     visibility: hidden;
+    pointer-events: none;
+    position: absolute;
 }
 
 .about-us-list{
@@ -218,8 +217,12 @@ img {
     text-align: center;
 }
 
+.about-us-list:first-child {
+    width: calc((100% - 72px) / 4);
+}
 
-.about-us-li{
+
+.about-us-li {
     text-align: left;
     width: calc((100% - 72px) / 4);
 }
@@ -258,6 +261,10 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     margin-bottom: 72px; 
+}
+
+.team-list:first-child {
+    width: calc((100% - 72px) / 4); 
 }
 
 .team-list {
@@ -323,6 +330,7 @@ img {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    column-gap: 24px; 
 }
 
 .portfolio-card {
@@ -381,7 +389,7 @@ img {
     color: #F4F4FD;
 }
 
-.footer-block .logo {
+.logo-footer {
     display: inline-block; 
     margin-bottom: 16px;
 }
