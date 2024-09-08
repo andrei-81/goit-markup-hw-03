@@ -374,24 +374,19 @@ img {
 }
 
 .our-footer {
-    /* padding-left: 156px; */
     background-color: #2E2F42;
-    /* align-content: center; */
     padding: 100px 0;
 }
 
-/* .footer-block {
-    width: 264px;
-    margin-top: 24px;
-    margin-bottom: 24px;
-} */
+.footer-block>a {
+    display: inline-block; 
+}
 
 .webspan-footer {
     color: #F4F4FD;
 }
 
 .logo-footer {
-    display: inline-block; 
     margin-bottom: 16px;
     font-family: "Raleway", sans-serif;
     color: #4d5ae5;
