@@ -26,15 +26,13 @@ img {
     flex-direction: row;
     justify-content: space-between;
     padding: 0 15px;
-    margin: 0 auto;
+    margin-left: 156px;
+    margin-right: 156px;
 }
 
-
-.heder-nav .logo {
-    align-self: center;
-}
 
 .logo {
+
     font-family: "Raleway", sans-serif;
     color: #4d5ae5;
     font-size: 18px;
@@ -55,11 +53,11 @@ img {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.heder-nav {
+.header-nav {
     display: flex;
     font-size: 16px;
     font-weight: 700;
-    margin-left: 156px;
+    /* margin-left: 156px; */
     align-items: center;
 }
 
@@ -105,7 +103,7 @@ img {
     display: flex;
     flex-direction: row;
     font-style: normal;
-    margin-right: 156px;
+    /* margin-right: 156px; */
     
 }
 
@@ -220,10 +218,6 @@ img {
     list-style-type: none;
     text-align: center;
 }
-.second-section-container:first-child,
-.about-us-list:first-child {
-    width: calc((100% - 72px) / 4);
-}
 
 
 .about-us-li {
@@ -310,7 +304,7 @@ img {
 }
 
 .portfolio {
-    flex-direction: column;
+    margin-left: 156px;
     padding-top: 120px; 
     padding-bottom: 120px;
 }
@@ -382,8 +376,12 @@ img {
     color: #F4F4FD;
 }
 
+.footer-block {
+    margin-left: 156px;
+}
+
 .logo-footer {
-    display: block; 
+    display: inline-block; 
     margin-bottom: 16px;
     font-family: "Raleway", sans-serif;
     color: #4d5ae5;
