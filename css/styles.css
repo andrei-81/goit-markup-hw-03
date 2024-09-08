@@ -75,8 +75,6 @@ img {
     list-style-type: none;
     margin-left: 24px;
     margin-right: 24px;
-    padding-top: 24px; 
-    padding-bottom: 24px;
 }
 
 
@@ -88,6 +86,7 @@ img {
     font-weight: 500;
     text-decoration: none;
     color: #2E2F42;
+    padding: 24px 0;
 }
 
 .header-nav-link:hover{
@@ -221,7 +220,7 @@ img {
     list-style-type: none;
     text-align: center;
 }
-
+.second-section-container:first-child,
 .about-us-list:first-child {
     flex-basis: calc((100% - 72px) / 4);
 }
@@ -278,13 +277,12 @@ img {
     gap: 24px;
     list-style-type: none;
     text-align: center;
-    flex-basis: calc((100% - 72px) / 4); 
 }
 
 .team-card {
     background-color: #FFFFFF;
     text-align: center;
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px; 
 }
 
@@ -396,7 +394,7 @@ img {
     color: #F4F4FD;
 }
 
-.footer-block .logo-footer {
+.logo-footer {
     display: inline-block; 
     margin-bottom: 16px;
 }
