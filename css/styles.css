@@ -222,7 +222,7 @@ img {
 }
 .second-section-container:first-child,
 .about-us-list:first-child {
-    flex-basis: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4);
 }
 
 
@@ -268,7 +268,7 @@ img {
 }
 
 .team-list:first-child {
-    flex-basis: calc((100% - 72px) / 4); 
+    width: calc((100% - 72px) / 4); 
 }
 
 .team-list {
@@ -282,7 +282,7 @@ img {
 .team-card {
     background-color: #FFFFFF;
     text-align: center;
-    flex-basis: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px; 
 }
 
@@ -374,8 +374,6 @@ img {
 }
 
 .our-footer {
-    /* display: inline-block; */
-    /* flex-direction: column; */
     padding-left: 156px;
     background-color: #2E2F42;
     align-content: center;
@@ -383,8 +381,6 @@ img {
 }
 
 .footer-block {
-    display: flex;
-    flex-direction: column;
     width: 264px;
     margin-top: 24px;
     margin-bottom: 24px;
