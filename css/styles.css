@@ -69,7 +69,8 @@ img {
 }
 
 
-.header-nav-element {
+.header-nav-element,
+.header-addr-element {
     display: inline;
     list-style-type: none;
     margin-left: 24px;
@@ -77,6 +78,7 @@ img {
     padding-top: 24px; 
     padding-bottom: 24px;
 }
+
 
 
 .header-nav-link {
@@ -117,10 +119,6 @@ img {
     color: #434455;
 }
 
-.header-addr-element {
-    display: inline;
-    list-style-type: none;
-}
 
 .link{
     font-size: 16px;
@@ -145,8 +143,8 @@ img {
 
 .section {
     display: flex; 
-    padding-left: 156px;
-    padding-right: 156px;
+    /* padding-left: 156px;
+    padding-right: 156px; */
 }
 
 
@@ -231,7 +229,7 @@ img {
 
 .about-us-li {
     text-align: left;
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .about-us-name{
@@ -280,6 +278,7 @@ img {
     gap: 24px;
     list-style-type: none;
     text-align: center;
+    flex-basis: calc((100% - 72px) / 4); 
 }
 
 .team-card {
@@ -377,8 +376,8 @@ img {
 }
 
 .our-footer {
-    display: flex;
-    flex-direction: column;
+    /* display: inline-block; */
+    /* flex-direction: column; */
     padding-left: 156px;
     background-color: #2E2F42;
     align-content: center;
