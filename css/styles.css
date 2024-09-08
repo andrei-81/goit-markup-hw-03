@@ -74,7 +74,8 @@ img {
     list-style-type: none;
     margin-left: 24px;
     margin-right: 24px;
-    padding: 24px 0;
+    padding-top: 24px; 
+    padding-bottom: 24px;
 }
 
 
@@ -218,7 +219,7 @@ img {
 }
 
 .about-us-list:first-child {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 
@@ -264,7 +265,7 @@ img {
 }
 
 .team-list:first-child {
-    width: calc((100% - 72px) / 4); 
+    flex-basis: calc((100% - 72px) / 4); 
 }
 
 .team-list {
@@ -307,7 +308,8 @@ img {
 
 .portfolio {
     flex-direction: column;
-    padding-top: 120px;
+    padding-top: 120px; 
+    padding-bottom: 120px;
 }
 
 .portfolio-title {
@@ -389,7 +391,7 @@ img {
     color: #F4F4FD;
 }
 
-.logo-footer {
+.footer-block .logo-footer {
     display: inline-block; 
     margin-bottom: 16px;
 }
